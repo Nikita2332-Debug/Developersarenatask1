@@ -1,124 +1,105 @@
-1) Project Overview
+# Personal Portfolio Website
 
-This project is a basic personal portfolio website created using HTML.
-The goal of this project is to understand the fundamentals of HTML, including page structure, navigation, lists, and forms.
-It showcases personal details, skills, and a contact form in a clean and simple layout.
+## Project Overview
 
-This project is designed for beginners learning web development.
+This project is a basic **personal portfolio website** created using **HTML**.  
+The purpose of this project is to understand the fundamentals of HTML such as page structure, navigation, lists, and forms.
 
-2) Project Objectives
+The website displays personal information, skills, and a contact form in a simple and clean layout.  
+This project is ideal for beginners who are starting their journey in web development.
 
-Learn basic HTML structure
+---
 
-Understand semantic HTML elements
+## Project Objectives
 
-Create navigation links
+- Learn basic HTML structure  
+- Understand semantic HTML elements  
+- Create navigation links  
+- Display skills using lists  
+- Build a contact form  
+- Practice organizing a simple project  
 
-Display skills using lists
+---
 
-Build a contact form
+## Technologies Used
 
-Practice organizing a simple project
+- HTML5  
+- Web Browser (Chrome / Edge / Firefox)  
 
-3) Technologies Used
+---
 
-HTML5
+## Code Editor
 
-Web Browser (Chrome / Edge / Firefox)
+- Visual Studio Code (VS Code) or any text editor  
 
-4) S Code (Code Editor)
+---
 
-Project Structure
+## Project Structure
+
 portfolio-website/
 │
 ├── index.html
 ├── README.md
 ├── images/
-│   └── portfolio-screenshot.png
+│ └── portfolio-screenshot.png
 └── requirements.txt (optional)
 
-5) Setup Instructions
+yaml
+Copy code
 
-Follow these steps to run the project:
+---
 
-Download or clone the repository
+## Setup Instructions
 
-Open the project folder
+1. Download or clone the repository  
+2. Open the project folder  
+3. Double-click on `index.html`  
+4. The website will open in your default browser  
 
-Double-click on index.html
+---
 
-The website will open in your default browser
+## HTML Concepts Learned
 
-6) HTML Concepts Learned
+- HTML Boilerplate (`<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`)  
+- Headings (`<h1>` to `<h3>`)  
+- Paragraphs (`<p>`)  
+- Navigation links (`<a>`)  
+- Lists (`<ul>`, `<li>`)  
+- Forms (`<form>`, `<input>`, `<textarea>`, `<button>`)  
+- Labels for form accessibility  
+- Basic page structure  
 
-This project helped me learn the following HTML concepts:
+---
 
-HTML Boilerplate (<!DOCTYPE html>, <html>, <head>, <body>)
+## Portfolio Structure Explanation
 
-Headings (<h1> to <h3>)
+- **Header Section**: Displays name and navigation links  
+- **About Section**: Short personal introduction  
+- **Skills Section**: List of technical skills  
+- **Contact Section**: Form to collect user details  
 
-Paragraphs (<p>)
+Each section is separated using headings for better readability.
 
-Navigation links (<a>)
+---
 
-Lists (<ul>, <li>)
+## Visual Documentation
 
-Forms (<form>, <input>, <textarea>, <button>)
+Screenshots of the website are available in the `images/` folder.
 
-Labels for form accessibility
+---
 
-Basic page structure
+## Testing Evidence
 
-7) Portfolio Structure Explanation
+| Test Case            | Expected Result            | Status |
+|---------------------|----------------------------|--------|
+| Open index.html     | Page loads correctly       | True   |
+| Submit empty form   | Validation message shown   | True   |
+| Enter invalid email | Email validation triggered | True   |
+| Navigation links    | Scroll to correct section  | True   |
 
-Header Section: Displays name and navigation links
+---
 
-About Section: Short introduction
+## Conclusion
 
-Skills Section: List of technical skills
-
-Contact Section: Form to collect user details
-
-Each section is clearly separated using headings for better readability.
-
-8) Visual Documentation
-
-Screenshots of the website are included in the images/ folder.
-
-Example:
-
-Portfolio Homepage
-
-Contact Form Section
-
-Testing Evidence
-
-The following tests were performed:
-
-Test Case   	     Expected Result             	Status
-Open index.html	     Page loads correctly	         True
-Submit empty form	 Browser shows validation	     True
-Enter invalid email	 Email validation triggered	     True
-Navigation links	 Scroll to correct section	     True
-
-
-9) Quality Standards Checklist
-
-Project overview included
-
-Clear setup instructions
-
-Organized folder structure
-
-HTML concepts explained
-
-Screenshots added
-
-Testing evidence provided
-
-Beginner-friendly code
-
-10) Conclusion
-
-This project strengthened my understanding of HTML basics and gave me hands-on experience in creating a simple web page.
-It serves as a foundation for learning CSS and JavaScript in the future.
+This project helped strengthen my understanding of **HTML basics** and provided hands-on experience in building a simple web page.  
+It serves as a foundation for learning **CSS and JavaScript** in the future.
