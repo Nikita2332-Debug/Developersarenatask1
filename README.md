@@ -24,6 +24,7 @@ This project is ideal for beginners who are starting their journey in web develo
 ## Technologies Used
 
 - HTML5  
+- CSS3
 - Web Browser (Chrome / Edge / Firefox)  
 
 ---
@@ -103,3 +104,18 @@ Screenshots of the website are available in the `images/` folder.
 
 This project helped strengthen my understanding of **HTML basics** and provided hands-on experience in building a simple web page.  
 It serves as a foundation for learning **CSS and JavaScript** in the future.
+
+## CSS Styling
+
+This project was further enhanced using **CSS** to improve the visual appearance
+and overall layout of the portfolio website. An external CSS file (`style.css`)
+is linked to the HTML file.
+
+### CSS Features Implemented
+
+- External CSS file linked to HTML
+- Improved layout using margins and padding
+- Enhanced typography with colors and font styling
+- Styled sections for better visual separation
+- Hover effects on navigation links
+- Clean and user-friendly design
