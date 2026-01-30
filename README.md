@@ -1,37 +1,19 @@
-# Personal Portfolio Website
+# Interactive Portfolio Website
 
 ## Project Overview
+This project is a personal **Interactive Portfolio Website** developed using **HTML, CSS, and JavaScript**.
+The objective of this project is to demonstrate basic front-end development skills along with JavaScript interactivity.
 
-This project is a basic **personal portfolio website** created using **HTML**.  
-The purpose of this project is to understand the fundamentals of HTML such as page structure, navigation, lists, and forms.
-
-The website displays personal information, skills, and a contact form in a simple and clean layout.  
-This project is ideal for beginners who are starting their journey in web development.
+The website includes dynamic content, form validation, interactive UI features, and local storage usage to improve user experience.
 
 ---
 
 ## Project Objectives
-
-- Learn basic HTML structure  
-- Understand semantic HTML elements  
-- Create navigation links  
-- Display skills using lists  
-- Build a contact form  
-- Practice organizing a simple project  
-
----
-
-## Technologies Used
-
-- HTML5  
-- CSS3
-- Web Browser (Chrome / Edge / Firefox)  
-
----
-
-## Code Editor
-
-- Visual Studio Code (VS Code) or any text editor  
+- Create a clean and responsive portfolio layout
+- Implement JavaScript-based interactivity
+- Validate user input using JavaScript
+- Enhance UI with animations and dark mode
+- Store user preferences using localStorage
 
 ---
 
@@ -39,83 +21,164 @@ This project is ideal for beginners who are starting their journey in web develo
 
 portfolio-website/
 │
-├── index.html
-├── README.md
-├── images/
-│ └── portfolio-screenshot.png
-└── requirements.txt (optional)
+├── index.html # Main HTML structure
+├── style.css # Styling and responsive design
+├── script.js # JavaScript functionality
+├── README.md # Project documentation
+└── images/ # Screenshots and gallery images
 
-yaml
-Copy code
+---
+
+## Technologies Used
+- **HTML5** – Structure of the website  
+- **CSS3** – Styling and responsive layout  
+- **JavaScript** – Interactivity and logic  
+- **Web Browser** – Execution environment  
 
 ---
 
 ## Setup Instructions
+Follow these steps to run the project:
 
-1. Download or clone the repository  
-2. Open the project folder  
-3. Double-click on `index.html`  
-4. The website will open in your default browser  
+1. Download or clone the project repository
+2. Ensure all files are in the correct folder structure
+3. Open the project folder
+4. Double-click on `index.html`
+5. The portfolio will open in your web browser
 
----
-
-## HTML Concepts Learned
-
-- HTML Boilerplate (`<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`)  
-- Headings (`<h1>` to `<h3>`)  
-- Paragraphs (`<p>`)  
-- Navigation links (`<a>`)  
-- Lists (`<ul>`, `<li>`)  
-- Forms (`<form>`, `<input>`, `<textarea>`, `<button>`)  
-- Labels for form accessibility  
-- Basic page structure  
+No external libraries or installations are required.
 
 ---
 
-## Portfolio Structure Explanation
+## JavaScript Features Implemented
 
-- **Header Section**: Displays name and navigation links  
-- **About Section**: Short personal introduction  
-- **Skills Section**: List of technical skills  
-- **Contact Section**: Form to collect user details  
+### 1. Form Validation
+The contact form uses JavaScript validation to ensure correct input before submission.
 
-Each section is separated using headings for better readability.
+**Validation Rules:**
+- Name field cannot be empty
+- Email must contain `@`
+- Message must be at least 10 characters long
+
+**Logic Used:**
+- Prevent default form submission
+- Check input values using conditions
+- Display custom error or success messages dynamically
+
+---
+
+### 2. DOM Manipulation
+JavaScript is used to dynamically modify content and styles on the page.
+
+Examples:
+- Updating text in the About section on click
+- Dynamically creating buttons and messages
+- Updating images in the image gallery
+
+Methods used:
+- `querySelector()`
+- `querySelectorAll()`
+- `createElement()`
+- `appendChild()`
+- `classList.toggle()`
+
+---
+
+### 3. Event Handling
+Multiple event listeners are implemented to handle user interactions.
+
+Events used:
+- `click`
+- `mouseover`
+- `mouseout`
+- `submit`
+- `scroll`
+- `load`
+
+These events improve user interaction and responsiveness.
+
+---
+
+### 4. Interactive Features
+The project includes more than three interactive features:
+
+- **Dark Mode Toggle**  
+  Allows users to switch between light and dark themes.
+
+- **Image Gallery**  
+  Clicking on thumbnail images updates the main image.
+
+- **Scroll Animations**  
+  Sections animate smoothly when they appear on screen.
+
+- **Hover Effects**  
+  Navigation links and buttons respond to mouse hover.
+
+---
+
+### 5. Local Storage
+Local Storage is used to save the user's dark mode preference.
+
+- Dark mode state is stored using `localStorage`
+- Preference is automatically applied on page reload
+
+This ensures a better user experience.
+
+---
+
+## Technical Details
+
+### Algorithms and Logic
+- Conditional statements for validation
+- Event-driven programming
+- DOM traversal and manipulation
+- Simple string validation techniques
+
+### Data Structures Used
+- JavaScript variables
+- NodeLists (`querySelectorAll`)
+- Browser localStorage (key-value pairs)
+
+### Architecture
+- Client-side single-page application
+- Separation of concerns (HTML, CSS, JavaScript)
+- Modular and reusable functions
+
+---
+
+## Testing and Validation
+
+### Manual Test Cases
+
+| Test Case | Input | Expected Result |
+|--------|------|----------------|
+Empty Name | Blank input | Error message shown |
+Invalid Email | Missing `@` | Validation error |
+Short Message | Less than 10 characters | Error message |
+Valid Input | Correct data | Success message |
+Dark Mode Reload | Refresh page | Theme preserved |
+
+All test cases were tested manually and passed successfully.
 
 ---
 
 ## Visual Documentation
+Screenshots demonstrating functionality are included in the `images/` folder.
 
-Screenshots of the website are available in the `images/` folder.
-
----
-
-## Testing Evidence
-
-| Test Case            | Expected Result            | Status |
-|---------------------|----------------------------|--------|
-| Open index.html     | Page loads correctly       | True   |
-| Submit empty form   | Validation message shown   | True   |
-| Enter invalid email | Email validation triggered | True   |
-| Navigation links    | Scroll to correct section  | True   |
+Examples:
+- Home page view
+- Dark mode enabled
+- Form validation error
+- Successful form submission
+- Image gallery interaction
 
 ---
 
 ## Conclusion
+This project successfully demonstrates the implementation of **HTML, CSS, and JavaScript** to create an interactive portfolio website.
+It showcases form validation, DOM manipulation, event handling, local storage usage, and UI enhancements.
 
-This project helped strengthen my understanding of **HTML basics** and provided hands-on experience in building a simple web page.  
-It serves as a foundation for learning **CSS and JavaScript** in the future.
+---
 
-## CSS Styling
-
-This project was further enhanced using **CSS** to improve the visual appearance
-and overall layout of the portfolio website. An external CSS file (`style.css`)
-is linked to the HTML file.
-
-### CSS Features Implemented
-
-- External CSS file linked to HTML
-- Improved layout using margins and padding
-- Enhanced typography with colors and font styling
-- Styled sections for better visual separation
-- Hover effects on navigation links
-- Clean and user-friendly design
+## Author
+**Nikita Bankar**

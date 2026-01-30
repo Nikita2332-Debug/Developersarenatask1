@@ -7,41 +7,54 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <script src="script.js"></script>
     <header>
-        <h1>Nikita Bankar </h1>
-         <nav>
+        <h1>Nikita Bankar</h1>
+         <nav aria-label="Main navigation">
+
              <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#contact">Contact</a>
          </nav>
     </header>
-    <section id="about">
+    <section id="about" class="card">
         <h2>About Me</h2>
-        <p>I am a web development beginner who is learning HTML and building simple websites.</p>
+        <p>I am a beginner web developer with knowledge of HTML, CSS, and basic JavaScript.
+             I enjoy building clean and simple websites and continuously improving my skills.</p>
     </section>
 
-    <section id="skills">
+    <section id="skills" class="card">
         <h2>My Skills</h2>
-        <ul>
+        <ul class="skills-list">
             <li>HTML</li>
             <li>CSS</li>
             <li>Basic JavaScript</li>
         </ul>
     </section>
 
-    <section id="contact">
+    <section id="gallery" class="card">
+  <h2>My Work</h2>
+  <img id="main-image" src="screenshots\main.png.png" alt="Portfolio Project preview">
+  <div id="thumbnails">
+    <img src=" screenshots\Screenshot 2026-01-17 004507.png" />
+    <img src="screenshots/style2.png.png" />
+    <img src="screenshots\styleport.png.png" />
+  </div>
+</section>
+
+    <section id="contact" class="card">
         <h2>Contact Me</h2>
-        <form>
-            <label>Name:</label><br>
-            <input type="text" required><br><br>
+        <form id="contact-form">
+            <label for="name">Name:</label><br>
+            <input id="name"name="name"  type="text" required><br><br>
 
-            <label>Email:</label><br>
-            <input type="email" required><br><br>
+            <label for="email">Email:</label><br>
+            <input id="email" name="email" type="email" required><br><br>
 
-            <label>Message:</label><br>
-            <textarea required></textarea><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br><br>
 
-            <input type="submit" value="Send">
+            <button type="submit">Send</button>
         </form>
     </section>
     
